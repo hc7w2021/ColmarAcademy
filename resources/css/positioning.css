@@ -1,0 +1,39 @@
+body {
+    font-family: Helvetica; /* Temporary */
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    padding: 0 24px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    height: 32px;
+}
+
+nav span {
+    margin-left: 16px;
+}
+
+/* Temporary dummy boxes */
+
+div {
+    border: 1px solid black;
+}
+
+nav {
+    border: 1px solid black;
+}
+
+header {
+    border: 1px solid black;
