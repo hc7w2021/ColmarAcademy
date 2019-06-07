@@ -19,17 +19,21 @@ h3 {
 /* Header */
 
 header {
-    /* position: fixed; */
-    display: flex;
-    align-items: center;
+    width: 100%;
+    max-width: 1230px;
     height: 4rem;
     padding: 0 1.5rem;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; /* temporary */
 }
 
 .logo {
     display: flex;
     align-items: center;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     height: 2rem;
 }
 
@@ -42,6 +46,7 @@ nav span {
 #introduction {
     display: flex;
     align-items: center;
+    padding-top: 4rem;
 }
 
 .left-column {
