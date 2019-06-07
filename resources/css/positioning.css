@@ -4,25 +4,110 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    max-width: 1024px;
+    max-width: 1280px;
 }
 
+h1 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Header */
+
 header {
+    /* position: fixed; */
     display: flex;
     align-items: center;
-    height: 64px;
-    padding: 0 24px;
+    height: 4rem;
+    padding: 0 1.5rem;
 }
 
 .logo {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    height: 32px;
+    height: 2rem;
 }
 
 nav span {
-    margin-left: 16px;
+    margin-left: 1rem;
+}
+
+/* Introduction */
+
+#introduction {
+    display: flex;
+    align-items: center;
+}
+
+.left-column {
+    width: 60%;
+    padding: 2rem 1.5rem;
+}
+
+.left-column img {
+    width: 100%;
+    height: auto;
+}
+
+.right-column {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.right-column h1 {
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.right-column h3 {
+    width: 80%;
+}
+
+.button {
+    width: 80%;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+
+/* Events */
+
+#events {
+    display: flex;
+    /* padding: 2rem 1rem; */
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.item img {
+    width: 35%;
+    height: auto;
+    margin: 1rem;
+}
+
+.left-column h1 {
+    margin-top: 2rem;
+}
+
+.left-column p {
+    margin-top: 1rem;
+}
+
+#events .item .right-column {
+    width: 65%;
+    line-height: 1.5;
 }
 
 /* Temporary dummy boxes */
@@ -37,3 +122,4 @@ nav {
 
 header {
     border: 1px solid black;
+}
