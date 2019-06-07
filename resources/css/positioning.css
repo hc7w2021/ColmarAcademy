@@ -83,7 +83,6 @@ nav span {
 
 #events {
     display: flex;
-    /* padding: 2rem 1rem; */
 }
 
 .item {
@@ -110,7 +109,84 @@ nav span {
     line-height: 1.5;
 }
 
+/* Acedemic Programs */
+
+#academics h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem 3.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 348px; /* One more pixel and the boxes wrap again, might need to be adjusted when font is changed */
+    padding-bottom: 1rem; /* This is for the 24px separation between the last line of text in a card and the bottom border, the other 8px are part of the p margin */
+    margin: 1rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 1rem;
+}
+
+.card p {
+    margin: 0.5rem 1rem;
+}
+
+/* Scholarship */
+
+#scholarship h1 {
+    text-align: center;
+}
+
+.thesis-container {
+    display: flex;
+}
+
+.left-column video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+#scholarship  .item .right-column {
+    width: 65%;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.copyright {
+    flex-grow: 1;
+    margin-left: 1.5rem;
+}
+
+footer nav {
+    margin-right: 1.5rem;
+}
+
 /* Temporary dummy boxes */
+
+section {
+    border: 1px solid black;
+}
 
 div {
     border: 1px solid black;
