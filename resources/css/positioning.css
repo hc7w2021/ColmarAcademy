@@ -7,12 +7,21 @@
     font-display: swap;
     src: local('Merriweather Light'), local('Merriweather-Light'), url(https://fonts.gstatic.com/s/merriweather/v20/u-4n0qyriQwlOrhSvowK_l521wRZWMf6.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Merriweather Regular'), local('Merriweather-Regular'), url(https://fonts.gstatic.com/s/merriweather/v20/u-440qyriQwlOrhSvowK_l5-fCZM.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
 /* Universal */
 
 body {
-    font-family: Helvetica; /* Temporary */
+    font-family: 'Merriweather', 'Times New Roman', serif;
     font-size: 16px;
     display: flex;
     flex-direction: column;
@@ -40,7 +49,7 @@ a:visited {
 
 header {
     width: 100%;
-    max-width: 1231px; /* where did ~50px go?? this should match the 1280 in the body */
+    max-width: 1232px; /* where did 48px go?? this should match the 1280 in the body */
     height: 4rem;
     padding: 0 1.5rem;
     position: fixed;
@@ -48,7 +57,6 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #a51c30;
-    font-family: 'Merriweather', 'Times New Roman', serif;
     color: white;
 }
 
@@ -199,6 +207,7 @@ nav span {
 
 #scholarship h1 {
     text-align: center;
+    padding-top: 2rem;
 }
 
 .thesis-container {
@@ -235,9 +244,9 @@ footer nav {
 
 /* Temporary dummy boxes */
 
-section {
+/* section {
     border: 1px solid black;
-}
+} */
 
 /* div {
     border: 1px solid black;
@@ -251,6 +260,6 @@ section {
     border: 1px solid black;
 } */
 
-footer {
+/* footer {
     border: 1px solid black;
-}
+} */
