@@ -1,0 +1,79 @@
+/* Universal */
+
+body {
+    background-color: #414141;
+}
+
+a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* Header */
+
+header,
+.button {
+    background-color: #a51c30;
+    color: white;
+}
+
+/* Introduction */
+
+#introduction {
+    background-color: #f9f6ef;
+}
+
+/* Events */
+
+#events {
+    background-color: #a51c30;
+}
+
+.item {
+    background-color: #f9f6ef;
+}
+
+.item a {
+    color: #a51c30;
+}
+
+.left-column h1,
+.left-column p {
+    color: white;
+}
+
+/* Academic Programs */
+
+#academics {
+    background-color: #f9f6ef;
+}
+
+.card {
+    background-color: #414141;
+    color: white;
+    border: 1px solid black;
+}
+
+/* Scholarship */
+
+#scholarship {
+    background-color: #a51c30
+}
+
+#scholarship h1,
+.left-column h3 {
+    color: white;
+}
+
+/* Footer */
+
+footer {
+    background-color: #f9f6ef;
+}
+
+footer a:link,
+footer a:visited {
+    color: black;
+    text-decoration: none;
+}

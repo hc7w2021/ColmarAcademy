@@ -27,7 +27,6 @@ body {
     flex-direction: column;
     margin: 0 auto;
     max-width: 1280px;
-    background-color: #414141;
 }
 
 h1 {
@@ -39,10 +38,8 @@ h3 {
     font-weight: bold;
 }
 
-a:link,
-a:visited {
-    color: white;
-    text-decoration: none;
+a {
+    padding-bottom: 0.5rem; /* Sets how far below the link the underline apperas when hovered over */
 }
 
 /* Header */
@@ -56,8 +53,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #a51c30;
-    color: white;
 }
 
 .logo {
@@ -90,7 +85,6 @@ nav span {
     display: flex;
     align-items: center;
     padding-top: 4rem;
-    background-color: #f9f6ef;
 }
 
 .left-column {
@@ -131,21 +125,17 @@ nav span {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     margin-top: 2rem;
-    background-color: #a51c30;
-    color: white;
 }
 
 /* Events */
 
 #events {
     display: flex;
-    background-color: #a51c30;
 }
 
 .item {
     display: flex;
     align-items: center;
-    background-color: #f9f6ef;
     margin: 0.5rem 0;
 }
 
@@ -155,18 +145,12 @@ nav span {
     margin: 1rem;
 }
 
-.item a {
-    color: #a51c30;
-}
-
 .left-column h1 {
     margin-top: 2rem;
-    color: white;
 }
 
 .left-column p {
     margin-top: 1rem;
-    color: white;
     line-height: 1.25;
 }
 
@@ -176,10 +160,6 @@ nav span {
 }
 
 /* Acedemic Programs */
-
-#academics {
-    background-color: #f9f6ef;
-}
 
 #academics h1 {
     text-align: center;
@@ -200,11 +180,8 @@ nav span {
     width: 348px; /* One more pixel and the boxes wrap again, might need to be adjusted when font is changed */
     padding-bottom: 1rem; /* This is for the 24px separation between the last line of text in a card and the bottom border, the other 8px are part of the p margin */
     margin: 1rem;
-    background-color: #414141;
-    color: white;
     line-height: 1.25;
     letter-spacing: 0.1rem;
-    border: 1px solid black;
 }
 
 .card img {
@@ -222,14 +199,9 @@ nav span {
 
 /* Scholarship */
 
-#scholarship {
-    background-color: #a51c30
-}
-
 #scholarship h1 {
     text-align: center;
     padding-top: 2rem;
-    color: white;
 }
 
 .thesis-container {
@@ -242,9 +214,6 @@ nav span {
     margin-bottom: 1.5rem;
 }
 
-.left-column h3 {
-    color: white;
-}
 
 #scholarship .item .right-column {
     width: 65%;
@@ -256,7 +225,6 @@ nav span {
 footer {
     display: flex;
     padding: 1rem 0;
-    background-color: #f9f6ef;
 }
 
 .copyright {
@@ -267,31 +235,3 @@ footer {
 footer nav {
     margin-right: 1.5rem;
 }
-
-footer a:link,
-footer a:visited {
-    color: black;
-    text-decoration: none;
-}
-
-/* Temporary dummy boxes */
-
-/* section {
-    border: 1px solid black;
-} */
-
-/* div {
-    border: 1px solid black;
-} */
-
-/* nav {
-    border: 1px solid black;
-} */
-
-/* header {
-    border: 1px solid black;
-} */
-
-/* footer {
-    border: 1px solid black;
-} */
