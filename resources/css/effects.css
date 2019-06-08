@@ -1,4 +1,4 @@
-/* Universal */
+/* Animated Underline Effect */
 
 /* Header */
 
@@ -28,12 +28,6 @@ header span > a:before {
 header span > a:hover:before {
     visibility: visible;
     transform: scaleX(1);
-}
-
-/* Introduction */
-
-.button:hover {
-    opacity: 0.9; 
 }
 
 /* Events */
@@ -66,9 +60,13 @@ p > a:hover:before {
     transform: scaleX(1);
 }
 
-/* Academic Programs */
+/* Lightening Effect on Link Hover */
 
-/* Scholarship */
+/* Introduction */
+
+.button:hover {
+    opacity: 0.9; 
+}
 
 /* Footer */
 
