@@ -118,14 +118,21 @@ nav span {
 
 .right-column h3 {
     width: 80%;
+    line-height: 1.25;
+}
+
+.right-column p {
+    padding-right: 1rem;
 }
 
 .button {
     width: 80%;
     text-align: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
     margin-top: 2rem;
+    background-color: #a51c30;
+    color: white;
 }
 
 /* Events */
@@ -138,6 +145,8 @@ nav span {
 .item {
     display: flex;
     align-items: center;
+    background-color: #f9f6ef;
+    margin: 0.5rem 0;
 }
 
 .item img {
@@ -146,12 +155,19 @@ nav span {
     margin: 1rem;
 }
 
+.item a {
+    color: #a51c30;
+}
+
 .left-column h1 {
     margin-top: 2rem;
+    color: white;
 }
 
 .left-column p {
     margin-top: 1rem;
+    color: white;
+    line-height: 1.25;
 }
 
 #events .item .right-column {
@@ -184,6 +200,11 @@ nav span {
     width: 348px; /* One more pixel and the boxes wrap again, might need to be adjusted when font is changed */
     padding-bottom: 1rem; /* This is for the 24px separation between the last line of text in a card and the bottom border, the other 8px are part of the p margin */
     margin: 1rem;
+    background-color: #414141;
+    color: white;
+    line-height: 1.25;
+    letter-spacing: 0.1rem;
+    border: 1px solid black;
 }
 
 .card img {
@@ -208,6 +229,7 @@ nav span {
 #scholarship h1 {
     text-align: center;
     padding-top: 2rem;
+    color: white;
 }
 
 .thesis-container {
@@ -220,7 +242,11 @@ nav span {
     margin-bottom: 1.5rem;
 }
 
-#scholarship  .item .right-column {
+.left-column h3 {
+    color: white;
+}
+
+#scholarship .item .right-column {
     width: 65%;
     line-height: 1.5;
 }
@@ -240,6 +266,12 @@ footer {
 
 footer nav {
     margin-right: 1.5rem;
+}
+
+footer a:link,
+footer a:visited {
+    color: black;
+    text-decoration: none;
 }
 
 /* Temporary dummy boxes */
