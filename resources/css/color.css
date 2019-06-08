@@ -1,7 +1,42 @@
-/* Universal */
+/* Scholarship Red */
 
-body {
+header,
+.button,
+#events,
+#scholarship {
+    background-color: #a51c30;
+}
+
+.item a {
+    color: #a51c30;
+}
+
+/* Clock Tower Grey */
+
+body,
+.card {
     background-color: #414141;
+}
+
+/* Parchment */
+
+#introduction,
+.item,
+#academics,
+footer {
+    background-color: #f9f6ef;
+}
+
+/* Head-in-the-Clouds White */
+
+header,
+.button,
+.left-column h1, 
+.left-column p,
+.card,
+#scholarship h1,
+.left-column h3 {
+    color: white;
 }
 
 a:link,
@@ -10,70 +45,14 @@ a:visited {
     text-decoration: none;
 }
 
-/* Header */
-
-header,
-.button {
-    background-color: #a51c30;
-    color: white;
-}
-
-/* Introduction */
-
-#introduction {
-    background-color: #f9f6ef;
-}
-
-/* Events */
-
-#events {
-    background-color: #a51c30;
-}
-
-.item {
-    background-color: #f9f6ef;
-}
-
-.item a {
-    color: #a51c30;
-}
-
-.left-column h1,
-.left-column p {
-    color: white;
-}
-
-/* Academic Programs */
-
-#academics {
-    background-color: #f9f6ef;
-}
-
-.card {
-    background-color: #414141;
-    color: white;
-    border: 1px solid black;
-}
-
-/* Scholarship */
-
-#scholarship {
-    background-color: #a51c30
-}
-
-#scholarship h1,
-.left-column h3 {
-    color: white;
-}
-
-/* Footer */
-
-footer {
-    background-color: #f9f6ef;
-}
+/* All-Nighter Black */
 
 footer a:link,
 footer a:visited {
     color: black;
     text-decoration: none;
+}
+
+.card {
+    border: 1px solid black;
 }
