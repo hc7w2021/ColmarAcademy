@@ -68,7 +68,7 @@
     .mobile nav {
         height: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -123,15 +123,19 @@
 
     #events h3 {
         width: 100%;
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
 
     #events p {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     #academics {
         border-top: 1px solid #414141;
+    }
+
+    .card-container {
+        margin: 2rem 1rem;
     }
 
     .card {
@@ -139,6 +143,7 @@
         margin: 0.5rem;
         border: 0;
         background-color: #a51c30;
+        width: 100%;
     }
 
     .card a {
@@ -150,7 +155,16 @@
         display: none;
     }
 
+    #scholarship h1 {
+        padding-bottom: 1rem;
+    }
+
     #scholarship .right-column {
+        display: none;
+    }
+
+    #scholarship h3,
+    #scholarship p {
         display: none;
     }
 
@@ -160,8 +174,8 @@
 
 }
 
-@media only screen and (max-width: 697px) {
+/* @media only screen and (max-width: 697px) {
     .card {
         width: 384px;
     }
-}
+} */
