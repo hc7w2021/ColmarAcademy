@@ -15,25 +15,26 @@
     }
 
     .left-column {
-        width: 93%;
+        width: 100%;
+        padding: 0;
     }
 
     .right-column {
-        width: 93%;
+        width: 100%;
     }
 
     .right-column h1 {
-        width: 93%;
+        width: 100%;
         text-align: center;
     }
     
     #introduction .right-column h3 {
-        width: 93%;
+        width: 100%;
         text-align: center;
     }
 
     .button {
-        width: 93%;
+        width: 100%;
         text-align: center;
     }
 
@@ -49,6 +50,10 @@
 }
 
 @media only screen and (max-width: 747px) {
+
+    header {
+        position: relative;
+    }
 
     .desktop {
         display: none;
@@ -75,17 +80,82 @@
         height: 2.5rem;
     }
 
+    #introduction,
+    #introduction .left-column {
+        padding-top: 0;
+    }
+
     #events {
         flex-direction: column;
+        background-color: #414141;
+    }
+
+    #events .left-column {
+        display: none;
+    }
+
+    #events .right-column {
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .item {
         flex-direction: column;
-        margin-left: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
-    .item img {
-        width: 100;
+    .desktop-image {
+        display: none;
+    }
+
+    .mobile-image {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 1rem;
+    }
+
+    #events .item .right-column {
+        width: 100%;
+        text-align: center;
+    }
+
+    #events h3 {
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    #events p {
+        font-size: 1.5rem;
+    }
+
+    #academics {
+        border-top: 1px solid #414141;
+    }
+
+    .card {
+        padding-bottom: 0;
+        margin: 0.5rem;
+        border: 0;
+        background-color: #a51c30;
+    }
+
+    .card a {
+        padding-bottom: 0.5rem;
+    }
+
+    .card img,
+    .card p {
+        display: none;
+    }
+
+    #scholarship .right-column {
+        display: none;
+    }
+
+    footer nav span {
+        display: none;
     }
 
 }

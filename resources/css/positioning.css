@@ -148,10 +148,14 @@ nav span {
     margin: 0.5rem 0;
 }
 
-.item img {
+.desktop-image {
     width: 35%;
     height: auto;
     margin: 1rem;
+}
+
+.mobile-image {
+    display: none;
 }
 
 .left-column h1 {
