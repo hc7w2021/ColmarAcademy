@@ -2,17 +2,20 @@
 
 /* Header */
 
-header span > a {
+header span > a,
+.card h3 > a {
     position: relative;
     color: white;
     text-decoration: none;
 }
   
-header span > a:hover {
+header span > a:hover,
+.card h3 > a:hover {
     color:white;
 }
 
-header span > a:before {
+header span > a:before,
+.card h3 > a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -25,7 +28,8 @@ header span > a:before {
     transition: all 0.2s ease-in-out 0s;
 }
 
-header span > a:hover:before {
+header span > a:hover:before,
+.card h3 > a:hover:before {
     visibility: visible;
     transform: scaleX(1);
 }
