@@ -190,7 +190,7 @@ nav span {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 348px; /* One more pixel and the boxes wrap again, might need to be adjusted when font is changed */
+    width: 348px; /* One more pixel and the boxes wrap again */
     padding-bottom: 1rem; /* This is for the 24px separation between the last line of text in a card and the bottom border, the other 8px are part of the p margin */
     margin: 1rem;
     line-height: 1.25;

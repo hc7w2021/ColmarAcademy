@@ -1,8 +1,12 @@
+/* Prevent headline from splitting into three lines */
+
 @media only screen and (max-width: 1118px) {
     h1 {
         font-size: 2rem;
     }
 }
+
+/* Large Tablet Portrait */
 
 @media only screen and (max-width: 906px) {
 
@@ -48,11 +52,15 @@
     }
 }
 
+/* Keep two rows of courses just a little bit longer */
+
 @media only screen and (max-width: 797px) {
     .card {
         width: 250px;
     }
 }
+
+/* Smartphone Portrait */
 
 @media only screen and (max-width: 747px) {
 
