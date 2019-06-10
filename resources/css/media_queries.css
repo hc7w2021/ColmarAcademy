@@ -18,28 +18,24 @@
         flex-direction: column;
     }
 
-    #introduction .left-column {
+    #introduction .left-column,
+    .right-column, 
+    .right-column h1, 
+    #introduction .right-column h3, 
+    .button, 
+    #scholarship .left-column {
         width: 100%;
-        padding: 0;
     }
 
-    .right-column {
-        width: 100%;
-    }
-
-    .right-column h1 {
-        width: 100%;
-        text-align: center;
-    }
-    
-    #introduction .right-column h3 {
-        width: 100%;
-        text-align: center;
-    }
-
+    .right-column h1,
+    #introduction .right-column h3,
     .button {
-        width: 100%;
         text-align: center;
+    }
+
+
+    #introduction .left-column {
+        padding: 0;
     }
 
     .card {
@@ -47,7 +43,6 @@
     }
 
     #scholarship .left-column {
-        width: 100%;
         padding: 1rem;
     }
 }
@@ -64,12 +59,28 @@
 
 @media only screen and (max-width: 747px) {
 
-    header {
-        position: relative;
+    .desktop,
+    #events .left-column,
+    .desktop-image,
+    .card img,
+    .card p,
+    #scholarship .right-column,
+    #scholarship h3,
+    #scholarship p,
+    footer nav span {
+        display: none;
     }
 
-    .desktop {
-        display: none;
+    .mobile-image,
+    #events .item .right-column,
+    #events h3,
+    .card,
+    #scholarship .left-column {
+        width: 100%;
+    }
+
+    header {
+        position: relative;
     }
 
     .mobile {
@@ -111,10 +122,6 @@
         border-top: 1px solid #414141;
     }
 
-    #events .left-column {
-        display: none;
-    }
-
     #events .right-column {
         padding-top: 0;
         padding-bottom: 0;
@@ -126,24 +133,17 @@
         margin-bottom: 0;
     }
 
-    .desktop-image {
-        display: none;
-    }
-
     .mobile-image {
         display: block;
-        width: 100%;
         height: auto;
         margin: 1rem;
     }
 
     #events .item .right-column {
-        width: 100%;
         line-height: 1.75;
     }
 
     #events h3 {
-        width: 100%;
         font-size: 1.75rem;
     }
 
@@ -164,16 +164,14 @@
         margin: 0.25rem;
         border: 0;
         background-color: #a51c30;
-        width: 100%;
+    }
+
+    .card:hover {
+        opacity: 0.9;
     }
 
     .card a {
         padding-bottom: 0.5rem;
-    }
-
-    .card img,
-    .card p {
-        display: none;
     }
 
     #scholarship h1 {
@@ -181,21 +179,7 @@
     }
 
     #scholarship .left-column {
-        width: 100%;
         padding: 0;
-    }
-
-    #scholarship .right-column {
-        display: none;
-    }
-
-    #scholarship h3,
-    #scholarship p {
-        display: none;
-    }
-
-    footer nav span {
-        display: none;
     }
 
 }
