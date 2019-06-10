@@ -90,6 +90,12 @@
         padding-top: 0;
     }
 
+    .button {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 1.25rem;
+    }
+
     #events {
         flex-direction: column;
         background-color: #f9f6ef;
