@@ -109,8 +109,12 @@
         padding-top: 0;
     }
 
+    .right-column {
+        padding: 2rem 0;
+    }
+
     .button {
-        padding-top: 1rem;
+        padding-top: 1.5rem;
         padding-bottom: 1rem;
         font-size: 1.25rem;
     }
@@ -118,7 +122,7 @@
     #events {
         flex-direction: column;
         background-color: #f9f6ef;
-        padding: 1rem 1rem 2rem 1rem;
+        padding: 0 1rem 2rem 1rem;
         border-top: 1px solid #414141;
     }
 
@@ -130,13 +134,17 @@
     .item {
         flex-direction: column;
         margin-top: 0;
-        margin-bottom: 0;
+        margin-bottom: 3rem; /* 48px here + 16px more on the margin of mobile images = 64px as per project requirements */
     }
 
     .mobile-image {
         display: block;
         height: auto;
         margin: 1rem;
+    }
+
+    #keynote {
+        margin-bottom: 0;
     }
 
     #events .item .right-column {
@@ -156,7 +164,7 @@
     }
 
     .card-container {
-        margin: 1rem 1rem 2rem 1rem;
+        margin: 0.75rem 0.75rem 1.75rem 0.75rem; /* Top margin here 12px + top margin .card 4px = 16px as per project requirements */
     }
 
     .card {
@@ -168,6 +176,10 @@
 
     .card:hover {
         opacity: 0.9;
+    }
+
+    .card h3 {
+        margin: 1rem 0 1.5rem 1rem;
     }
 
     .card a {
