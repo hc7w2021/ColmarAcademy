@@ -41,6 +41,11 @@
     .card {
         width: 300px;
     }
+
+    #scholarship .left-column {
+        width: 100%;
+        padding: 1rem;
+    }
 }
 
 @media only screen and (max-width: 797px) {
@@ -159,6 +164,11 @@
 
     #scholarship h1 {
         padding-bottom: 1rem;
+    }
+
+    #scholarship .left-column {
+        width: 100%;
+        padding: 0;
     }
 
     #scholarship .right-column {
