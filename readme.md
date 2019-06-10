@@ -12,11 +12,11 @@ We are a tech-forward university.  At the same time we don't just use every new 
 
 ## Fonts
 
-A proper serifed typeface is a clear signal that education is top priority at Colmar Academy.  For longer passages, serifs have been removed for ease of reading and accessibility.
+A proper serifed typeface is a clear signal that education is a top priority at Colmar Academy.  For longer passages, serifs have been removed for ease of reading and accessibility.
 
 ## Color
 
-At Colmar Academy we seek the truth.  As such we draw inspiration from the finest educational institutions in the world (and [bpmaiden](https://bpmaiden.github.io/colmar/))  Contrast and tradition guide our palette.
+At Colmar Academy we seek the truth.  As such we draw inspiration from the finest educational institutions in the world (and [bpmaiden's](https://bpmaiden.github.io/colmar/) use of hsla and the color wheel).  Contrast and tradition guide our palette.
 
 ## Animations
 
@@ -30,7 +30,7 @@ We are proud of our diverse student body.  Our students utilize every kind devic
 
 ## Accessibility
 
-We believe in an inclusive experience.  One which even the visually impaired can appreciate.  Semantic HTML and ARIA roles have been added to improve the experience of these students, and a screen reader was installed and utilized for testing purposes.
+We believe in an inclusive experience.  One which even the visually impaired can appreciate.  Semantic HTML and ARIA roles have been added to improve the experience of these students, and a screen reader was installed and utilized for testing purposes.  Finally as mentioned, serifs were removed from longer passages.
 
 ## A Note about the Developer
 
@@ -38,7 +38,7 @@ Our new frontend developer was trained at Code Academy's now defunct "Build Webs
 
 ## Conclusion
 
-Since the dawn of humanity we have sought the truth.  Well, not us specifically since we were only founded a few years ago, but humankind.  You know what we mean.
+Since the dawn of humanity we have sought the truth.  Well, not us specifically since we were only founded a few years ago, but humankind.  We havene't been aroung *that* long.  You know what we mean.
 
 Sometimes the truth is right there in front of us.  Other times it is shrouded in falsehoods and only through the passage of time is it brought forward for its proper recognition.  As a student of Colmar Academy you will learn to tell the difference.  As you consider advancing your education with us, we leave you with our university motto:
 

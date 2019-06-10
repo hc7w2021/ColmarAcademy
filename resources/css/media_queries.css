@@ -131,6 +131,10 @@
         padding-bottom: 0;
     }
 
+    #events .item .right-column {
+        margin-left: 1rem;
+    }
+
     .item {
         flex-direction: column;
         margin-top: 0;
