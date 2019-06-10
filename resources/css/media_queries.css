@@ -16,7 +16,6 @@
 
     .left-column {
         width: 100%;
-        padding: 0;
     }
 
     .right-column {
@@ -87,7 +86,9 @@
 
     #events {
         flex-direction: column;
-        background-color: #414141;
+        background-color: #f9f6ef;
+        padding: 1rem 1rem 2rem 1rem;
+        border-top: 1px solid #414141;
     }
 
     #events .left-column {
@@ -118,7 +119,7 @@
 
     #events .item .right-column {
         width: 100%;
-        text-align: center;
+        line-height: 1.75;
     }
 
     #events h3 {
@@ -135,12 +136,12 @@
     }
 
     .card-container {
-        margin: 2rem 1rem;
+        margin: 1rem 1rem 2rem 1rem;
     }
 
     .card {
         padding-bottom: 0;
-        margin: 0.5rem;
+        margin: 0.25rem;
         border: 0;
         background-color: #a51c30;
         width: 100%;
@@ -173,9 +174,3 @@
     }
 
 }
-
-/* @media only screen and (max-width: 697px) {
-    .card {
-        width: 384px;
-    }
-} */
