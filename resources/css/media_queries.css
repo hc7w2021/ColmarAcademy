@@ -104,10 +104,10 @@
         height: 2.5rem;
     }
 
-    #introduction,
+    /* #introduction,
     #introduction .left-column {
         padding-top: 0;
-    }
+    } */
 
     .right-column {
         padding: 2rem 0;
