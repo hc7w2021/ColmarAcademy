@@ -38,7 +38,7 @@ Our new frontend developer was trained at Code Academy's now defunct "Build Webs
 
 ## Conclusion
 
-Since the dawn of humanity we have sought the truth.  Well, not us specifically since we were only founded a few years ago, but humankind.  We havene't been aroung *that* long.  You know what we mean.
+Since the dawn of humanity we have sought the truth.  Well, not us specifically since we were only founded a few years ago, but humankind.  We haven't been aroung *that* long.  You know what we mean.
 
 Sometimes the truth is right there in front of us.  Other times it is shrouded in falsehoods and only through the passage of time is it brought forward for its proper recognition.  As a student of Colmar Academy you will learn to tell the difference.  As you consider advancing your education with us, we leave you with our university motto:
 

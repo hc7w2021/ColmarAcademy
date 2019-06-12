@@ -80,7 +80,7 @@
     }
 
     header {
-        position: relative;
+        position: fixed;
     }
 
     .mobile {
